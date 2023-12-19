@@ -13,6 +13,11 @@
     @if(Request::is('/'))
         @include('inc.hero')
     @endif
+
+    <div class="container mt-3">
+        @include('inc.messages')
+    </div>
+
     <div class="container mt-5">
         <div class="row">
             <div class="col-8">
